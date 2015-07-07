@@ -1,0 +1,44 @@
+.ps-title-bar{
+    background: #ecf0f1;
+    padding: 0 20px;
+    border-bottom: 2px solid #2c3e50;
+}
+.ps-title-area {
+    display: inline-block;
+}
+.ps-logo-area{
+    text-align: center;
+}
+.ps-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    vertical-align: top;
+    border: 1px solid #999;
+}
+.ps-logo-title{
+    color: black;
+    margin-top: 6px;
+    font-size: 22px;
+}
+.ps-logo-subtitle{
+    font-size: 13px;
+    margin-top: -13px;
+}
+
+.ps-right-side-control{
+    line-height: 60px;
+}
+.ps-right-side-control > div {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .ps-right-side-control > div {
+        text-align: right;
+    }
+    
+    .ps-logo-area {
+        text-align: left;
+    }

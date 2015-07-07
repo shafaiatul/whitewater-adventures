@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>White Water Adventure</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app/app.css">
+    <link rel="stylesheet" href="ext-modules/psFramework/psFramework.css">
+    <link rel="stylesheet" href="ext-modules/psMenu/psMenu.css">
+    
+    
+    
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+
+
+	<script src="ext-modules/psMenu/psMenuModule.js"></script>
+    <script src="ext-modules/psMenu/psMenuController.js"></script>
+    <script src="ext-modules/psMenu/psMenuDirective.js"></script>
+    <script src="ext-modules/psMenu/psMenuItemDirective.js"></script>
+    
+	<script src="ext-modules/psDashboard/psDashboardModule.js"></script>
+    
+	<script src="ext-modules/psFramework/psFrameworkModule.js"></script>
+    <script src="ext-modules/psFramework/psFrameworkController.js"></script>
+    <script src="ext-modules/psFramework/psFrameworkDirective.js"></script>
+    
+    
+	<script src="app/appModule.js"></script>
+</head>
+<body class="container-fluid">
+	<ps-framework title="White Water Adventure" 
+                  subtitle="Administrative Application"
+                  icon-file="/images/titleicon.jpg">
+                  
+        <ps-menu>
+            <ps-menu-item label="Dashboard" icon="fa-tachometer" route="dashboard"></ps-menu-item>
+            <ps-menu-item label="Locations" icon="fa-location-arrow" route="locations"></ps-menu-item>
+            <ps-menu-item label="Raft Guides" icon="fa-user" route="guides"></ps-menu-item>
+        </ps-menu>  
+	</ps-framework>
+</body>
+</html>

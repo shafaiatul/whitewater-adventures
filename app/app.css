@@ -1,0 +1,10 @@
+body {
+    background-color: #444;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn {
+    border-radius: 0px;
+}
+.container-fluid{
+    padding: 0;
+}
